@@ -229,6 +229,7 @@ img {
 .product-image {
     overflow: hidden;
     margin-bottom: 1.5rem;
+    cursor: pointer;
 }
 
 .product-image img {
