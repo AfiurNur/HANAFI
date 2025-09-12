@@ -210,6 +210,9 @@ img {
 }
 
 @media (max-width: 968px) {
+    *{
+        overflow: auto;
+    }
     .hero-image {
         width: 100%;
         opacity: 0.3;
@@ -229,3 +232,4 @@ img {
     }
 
 }
+
