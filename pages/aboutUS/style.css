@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow: auto;
 }
 
 body {
@@ -227,4 +227,5 @@ img {
     .decorative-element {
         display: none;
     }
+
 }
