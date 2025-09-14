@@ -357,6 +357,9 @@ img {
 
 /* Responsive Design */
 @media screen and (max-width: 968px) {
+    body{
+        overflow-x: none;
+    }
     .nav-menu {
         position: fixed;
         top: 80px;
