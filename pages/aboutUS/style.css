@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 body {
@@ -209,6 +210,10 @@ img {
 }
 
 @media (max-width: 968px) {
+    html,
+    body{
+        overflow: scroll;
+    }
     .hero-image {
         width: 100%;
         opacity: 0.3;

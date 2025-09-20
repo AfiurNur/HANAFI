@@ -357,8 +357,9 @@ img {
 
 /* Responsive Design */
 @media screen and (max-width: 968px) {
+    html,
     body{
-        overflow-x: none;
+        overflow-x: hidden;
     }
     .nav-menu {
         position: fixed;
@@ -409,5 +410,6 @@ img {
     .footer-links {
         grid-template-columns: 1fr;
         gap: 2.5rem;
+        display: none;
     }
 }
